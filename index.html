@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="score-card">
+      <div class="score-card2">
+        <div class="team1">
+          <h1 class="team-name">RCB</h1>
+          <h1 id="score-el" class="score-no">0</h1>
+          <div class="incre-btn">
+            <button class="btn" onclick="clickp()">+1</button>
+            <button class="btn" onclick="clickpp()">+2</button>
+            <button class="btn" onclick="clickppp()">+3</button>
+          </div>
+        </div>
+
+        <div class="team2">
+          <h1 class="team-name">KKR</h1>
+          <h1 class="score-no" id="score-nl">0</h1>
+          <div class="incre-btn">
+            <button class="btn" onclick="clickl()">+1</button>
+            <button class="btn" onclick="clickll()">+2</button>
+            <button class="btn" onclick="clicklll()">+3</button>
+          </div>
+        </div>
+      </div>
+      <button id="reset-btn" onclick="resetEl()">Reset</button>
+    </div>
+  </body>
+</html>

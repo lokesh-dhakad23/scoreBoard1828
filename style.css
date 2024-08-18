@@ -1,0 +1,100 @@
+@font-face {
+    font-family: cursed;
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(BG/basketball.jpg);
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.score-card {
+    background-color: #117c8f;
+    margin-top: 3%;
+    height: 75%;
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px 20px 30px 20px;
+}
+
+.score-card2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.score-no {
+    width: 75%;
+    color: #e33333;
+    font-family: cursed;
+    font-size: 8em;
+    background-image: url(BG/blackBG.jpg);
+    background-size: cover;
+    padding: 30px 50px 10px 20px;
+    border: 1px double white;
+    text-align: center;
+    margin: 0.50em auto;
+    
+}
+
+.team-name {
+    font-size: 4em;
+    color: #c9bdbd;
+    border-radius: 10px;
+    
+
+}
+
+.btn {
+    background-color: #d4ba11;
+    border: 1px solid #000000;
+    border-radius: 20%;
+    padding: 15px;
+    font-size: 1.2em;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    transition: all 150ms ease-in;
+}
+
+#reset-btn {
+    font-family: "Varela Round", sans-serif;
+    margin: 20px 42%;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    background-color: #117c8f;
+    font-weight: 700;
+    color: #772626;
+    border: 1px solid #000000;
+    border-radius: 15%;
+    transition: all 200ms ease-in;
+}
+
+.btn:hover {
+    background-color: #01fd11;
+    transform: scale(1.1);
+
+}
+
+.btn:active {
+    transform: scale(1);
+}
+
+#reset-btn:hover {
+    background-color: #e33333;
+    color:white;
+    transform: scale(1.2);
+
+}
+
+#reset-btn:active {
+    transform: scale(1);
+}
